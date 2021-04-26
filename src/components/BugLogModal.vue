@@ -1,10 +1,10 @@
 <template>
   <div
     class="modal fade"
-    id="keeprmodal"
+    id="buglogmodal"
     tabindex="-1"
     role="dialog"
-    aria-labelledby="keeprmodal"
+    aria-labelledby="buglogmodal"
     aria-hidden="true"
   >
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -28,35 +28,49 @@
                 <div class="carousel-item active">
                   <img
                     class="d-block img-fluid"
-                    src="../assets/img/keepr2.jpg"
+                    src="../assets/img/buglog1.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid"
-                    src="../assets/img/keepr3.jpg"
+                    src="../assets/img/buglog2.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid"
-                    src="../assets/img/keepr4.jpg"
+                    src="../assets/img/buglog3.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid"
-                    src="../assets/img/keepr5.jpg"
+                    src="../assets/img/buglog4.jpg"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block img-fluid"
-                    src="../assets/img/keepr6.jpg"
+                    src="../assets/img/buglog5.jpg"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="../assets/img/buglog6.jpg"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="../assets/img/buglog7.jpg"
                     alt="..."
                   />
                 </div>
@@ -95,7 +109,7 @@
 
 <script>
 export default {
-  name: 'KeeprModal',
+  name: 'BugLogModal',
   props: [],
   setup() {
     return {}

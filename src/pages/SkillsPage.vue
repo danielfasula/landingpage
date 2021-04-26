@@ -105,6 +105,7 @@ export default {
 .card:hover {
   transform: translateY(-5px);
   border-color: #6f64e7;
+  cursor: default;
 }
 .card:hover .card-body .card-title {
   color: #6f64e7;

@@ -1,59 +1,60 @@
 <template>
-  <div class="container-fluid">
-    <div class="row d-flex">
-      <div class="col-5">
-        <div class="item-img">
-          <img src="../assets/img/710.jpg" alt="" />
-          <div class="item-img-overlay">
-            <div class="overlay-info full-width">
-              <span class="icon">
-                <i
-                  class="far fa-eye"
-                  data-toggle="modal"
-                  data-target="#modal710"
-                  aria-hidden="true"
-                ></i>
-              </span>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div
+          class="portfolio-item mx-auto"
+          data-toggle="modal"
+          data-target="#modal710"
+        >
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="far fa-eye fa-3x"></i>
             </div>
           </div>
+          <img class="img-fluid" src="../assets/img/710.jpg" alt="..." />
         </div>
       </div>
-      <!-- <div class="col-5">
-        <div class="item-img">
-          <img src="../assets/img/keepr1.jpg" alt="" />
-          <div class="item-img-overlay">
-            <div class="overlay-info full-width">
-              <span class="icon">
-                <i
-                  class="far fa-eye"
-                  data-toggle="modal"
-                  data-target="#modal710"
-                  aria-hidden="true"
-                ></i>
-              </span>
+      <!-- Portfolio Item 2-->
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div
+          class="portfolio-item mx-auto"
+          data-toggle="modal"
+          data-target="#keeprmodal"
+        >
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="far fa-eye fa-3x"></i>
             </div>
           </div>
+          <img class="img-fluid" src="../assets/img/keepr1.jpg" alt="..." />
         </div>
-    </div>
-    <div class="col-5">
-        <div class="card">
-          <img src="../assets/img/keepr1.jpg" alt="" />
-          <div class="card-img-overlay">
-            <h5
-              class="card-title keepr"
-              data-toggle="modal"
-              data-target="#modalkeepr"
-              aria-hidden="true"
-            >
-              KEEPR
-            </h5>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div
+          class="portfolio-item mx-auto"
+          data-toggle="modal"
+          data-target="#buglogmodal"
+        >
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="far fa-eye fa-3x"></i>
+            </div>
           </div>
+          <img class="img-fluid" src="../assets/img/buglog.jpg" alt="..." />
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
   <Modal710 />
   <KeeprModal />
+  <BugLogModal />
 </template>
 
 <script>
@@ -65,7 +66,51 @@ export default {
 }
 </script>
 <style scoped>
-img {
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.portfolio-item-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+
+.portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+.portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+/* img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -115,5 +160,5 @@ img {
 .keepr {
   color: white;
   text-shadow: 2px 2px black;
-}
+} */
 </style>

@@ -7,7 +7,7 @@
     </h1>
     <Navbar />
   </header>
-  <main class="container-fluid">
+  <main>
     <router-view />
   </main>
   <footer>
