@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="row d-flex justify-content-center">
-            <div id="control" class="carousel slide" data-ride="carousel">
+            <div id="controlbug" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -77,7 +77,7 @@
               </div>
               <a
                 class="carousel-control-prev"
-                href="#control"
+                href="#controlbug"
                 role="button"
                 data-slide="prev"
               >
@@ -89,7 +89,7 @@
               </a>
               <a
                 class="carousel-control-next"
-                href="#control"
+                href="#controlbug"
                 role="button"
                 data-slide="next"
               >
