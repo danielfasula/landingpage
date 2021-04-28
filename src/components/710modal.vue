@@ -60,6 +60,20 @@
                     alt="Second slide"
                   />
                 </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block"
+                    src="../assets/img/7105.jpg"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block"
+                    src="../assets/img/7106.jpg"
+                    alt="Second slide"
+                  />
+                </div>
               </div>
               <a
                 class="carousel-control-prev"

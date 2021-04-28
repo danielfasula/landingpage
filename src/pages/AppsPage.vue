@@ -14,7 +14,7 @@
               <i class="far fa-eye fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="../assets/img/710.jpg" alt="..." />
+          <img class="img-fluid" src="../assets/img/710main.jpg" alt="..." />
         </div>
       </div>
       <!-- Portfolio Item 2-->
@@ -69,6 +69,11 @@ export default {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+img {
+  max-height: 60vh;
+  max-width: 60vh;
 }
 
 .portfolio-item {
