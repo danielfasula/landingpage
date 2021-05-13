@@ -13,10 +13,10 @@
   <footer>
     <div class="links p-2 mt-3">
       <a href="https://www.linkedin.com/in/danielfasula/">
-        <i type="button" class="fab fa-linkedin mx-2"></i>
+        <i type="button" class="fab fa-lg fa-linkedin"></i>
       </a>
       <a href="https://github.com/danielfasula">
-        <i type="button" class="fab fa-github-square"></i>
+        <i type="button" class="fab fa-lg fa-github-square mx-3"></i>
       </a>
     </div>
   </footer>

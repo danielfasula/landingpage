@@ -34,6 +34,10 @@ export default {
 </script>
 
 <style scoped>
+li {
+  font-size: 24px;
+}
+
 .hoverable {
   cursor: pointer;
 }

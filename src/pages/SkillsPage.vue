@@ -5,8 +5,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/js-logo.png" alt="" />
-            <h6 class="card-title">JavaScript</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">JavaScript</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -14,8 +14,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/html-logo.png" alt="" />
-            <h6 class="card-title">HTML</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">HTML</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -23,8 +23,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/css-logo.png" alt="" />
-            <h6 class="card-title">CSS</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">CSS</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -32,8 +32,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/vue-logo.png" alt="" />
-            <h6 class="card-title">VUE3</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">VUE3</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -41,8 +41,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/node-logo.png" alt="" />
-            <h6 class="card-title">NODE.JS</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">NODE.JS</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -50,8 +50,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/csharp-logo.png" alt="" />
-            <h6 class="card-title">C#</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">C#</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -59,8 +59,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/firebase-logo.png" alt="" />
-            <h6 class="card-title">FireBase</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">FireBase</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>
@@ -68,8 +68,8 @@
         <div class="card">
           <div class="card-body">
             <img height="30" src="../assets/img/vscode-logo.png" alt="" />
-            <h6 class="card-title">VSCode</h6>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h4 class="card-title">VSCode</h4>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
           </div>
         </div>
       </div>

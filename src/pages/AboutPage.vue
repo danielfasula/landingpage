@@ -7,31 +7,31 @@
       <div class="col-8">
         <div class="row">
           <div class="col">
-            <h4 class="mb-3">Hi, I'm <span class="name">Daniel</span></h4>
+            <h2 class="mb-3">Hi, I'm <span class="name">Daniel</span></h2>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <h6>
+            <h4>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Molestias, numquam? Totam modi laboriosam amet illo ullam fugit
               exercitationem ex vitae fugiat, necessitatibus quis perspiciatis
               repellendus! Expedita ratione necessitatibus iste quos.
-            </h6>
+            </h4>
           </div>
         </div>
         <div class="row d-flex mt-3">
           <div class="col-4 bold">
-            <p>Name:</p>
-            <p>Age:</p>
-            <p>Phone Number:</p>
-            <p>Email:</p>
+            <h5>Name:</h5>
+            <h5>Age:</h5>
+            <h5>Number:</h5>
+            <h5>Email:</h5>
           </div>
           <div class="col-6">
-            <p>Daniel Fasula</p>
-            <p>26</p>
-            <p>208-447-0035</p>
-            <p>danielfasula@gmail.com</p>
+            <h5>Daniel Fasula</h5>
+            <h5>26</h5>
+            <h5>208-447-0035</h5>
+            <h5>danielfasula@gmail.com</h5>
           </div>
         </div>
       </div>

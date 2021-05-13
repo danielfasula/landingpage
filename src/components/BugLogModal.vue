@@ -125,7 +125,7 @@ export default {
   margin-bottom: 10px;
 }
 
-img {
+/* img {
   height: 70vh;
-}
+} */
 </style>
